@@ -17,7 +17,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:id="@+id/button1" />
+        android:id="@+id/button1"
+        android:onClick="button1_handle" />
 
     <Button
         android:text="@string/button2_text"
@@ -26,7 +27,8 @@
         android:layout_below="@+id/button"
         android:layout_gravity="center_horizontal"
         android:layout_alignStart="@+id/button"
-        android:id="@+id/button2" />
+        android:id="@+id/button2"
+        android:onClick="button2_handle" />
 
     <Button
         android:text="@string/button3_text"
@@ -35,5 +37,6 @@
         android:layout_below="@+id/button2"
         android:layout_gravity="center_horizontal"
         android:layout_alignStart="@+id/button2"
-        android:id="@+id/button3" />
+        android:id="@+id/button3"
+        android:onClick="button3_handle" />
 </LinearLayout>
