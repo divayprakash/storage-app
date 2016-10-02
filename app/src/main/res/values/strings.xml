@@ -6,4 +6,6 @@
     <string name="textView_text">This is the stored string.</string>
     <string name="textView2_text">Enter text to be stored using Shared Preferences in the text box below:</string>
     <string name="button4_text">Save</string>
+    <string name="button5_text">Internal storage</string>
+    <string name="button6_text">External storage</string>
 </resources>
