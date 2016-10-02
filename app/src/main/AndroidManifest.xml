@@ -22,9 +22,18 @@
             android:name=".SharedPreferencesActivity"
             android:label="Shared Preferences Demo"
             android:screenOrientation="portrait" />
-        <activity android:name=".FileStorageSelectionActivity" />
-        <activity android:name=".InternalStorageActivity" />
-        <activity android:name=".ExternalStorageActivity"></activity>
+        <activity
+            android:name=".FileStorageSelectionActivity"
+            android:label="Storage Selection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InternalStorageActivity"
+            android:label="Internal Storage Demo"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ExternalStorageActivity"
+            android:label="External Storage Demo"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
