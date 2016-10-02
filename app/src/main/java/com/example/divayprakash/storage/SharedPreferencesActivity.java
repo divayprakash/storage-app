@@ -7,7 +7,12 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-
+/**
+ * The SharedPreferencesActivity class implements all the control logic for the
+ * Shared Preferences Demo.
+ *
+ * @author Divay Prakash
+ */
 public class SharedPreferencesActivity extends AppCompatActivity {
 
     /**
