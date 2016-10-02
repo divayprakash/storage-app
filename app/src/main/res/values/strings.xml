@@ -3,4 +3,7 @@
     <string name="button1_text">Shared Preferences</string>
     <string name="button2_text">Files</string>
     <string name="button3_text">SQLite</string>
+    <string name="textView_text">This is the stored string.</string>
+    <string name="textView2_text">Enter text to be stored using Shared Preferences in the text box below:</string>
+    <string name="button4_text">Save</string>
 </resources>
