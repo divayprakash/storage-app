@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.divayprakash.storage">
+
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -29,11 +31,12 @@
         <activity
             android:name=".InternalStorageActivity"
             android:label="Internal Storage Demo"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ExternalStorageActivity"
             android:label="External Storage Demo"
             android:screenOrientation="portrait" />
+        <activity android:name=".DatabaseActivity"></activity>
     </application>
 
 </manifest>

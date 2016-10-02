@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void button3_handle(View view){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, DatabaseActivity.class);
         startActivity(intent);
     }
 }
