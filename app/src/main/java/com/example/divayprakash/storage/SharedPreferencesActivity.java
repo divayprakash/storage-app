@@ -7,11 +7,25 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+
 public class SharedPreferencesActivity extends AppCompatActivity {
 
+    /**
+     * TextView variable representing the object to display the saved
+     * string in.
+     */
     private TextView textView;
+
+    /**
+     * EditText variable representing the object for taking input form
+     * user.
+     */
     private EditText editText;
 
+    /**
+     * This method is called at the startup of the application.
+     * @param savedInstanceState The saved instance state of the application.
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,11 +35,21 @@ public class SharedPreferencesActivity extends AppCompatActivity {
         retreiveString();
     }
 
+    /**
+     * This is the onClick action handler for the 'Save' button. It saves the
+     * current state of the Edittext field in the Shared Preferences and also
+     * updates the TextView field with the same data.
+     * @param view The View instance passed to this method.
+     */
     public void button4_handle(View view) {
         saveString();
         retreiveString();
     }
 
+    /**
+     * This method is called to save the state of EditText field in the Shared
+     * Preferences.
+     */
     private void saveString() {
         SharedPreferences settings = getPreferences(MODE_PRIVATE);
         String text = editText.getText().toString();
@@ -34,6 +58,10 @@ public class SharedPreferencesActivity extends AppCompatActivity {
         editor.commit();
     }
 
+    /**
+     * This method is called to retreieve the stored string from Shared
+     * Preferences and set the TextView field.
+     */
     private void retreiveString() {
         SharedPreferences settings = getPreferences(MODE_PRIVATE);
         String text = settings.getString("savedString", getString(R.string.textView_text));
