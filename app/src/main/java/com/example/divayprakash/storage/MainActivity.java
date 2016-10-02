@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void button2_handle(View view){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, FileStorageSelectionActivity.class);
         startActivity(intent);
     }
 
