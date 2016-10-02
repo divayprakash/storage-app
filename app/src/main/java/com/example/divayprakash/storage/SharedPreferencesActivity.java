@@ -42,7 +42,7 @@ public class SharedPreferencesActivity extends AppCompatActivity {
 
     /**
      * This is the onClick action handler for the 'Save' button. It saves the
-     * current state of the Edittext field in the Shared Preferences and also
+     * current state of the EditText field in the Shared Preferences and also
      * updates the TextView field with the same data.
      * @param view The View instance passed to this method.
      */
