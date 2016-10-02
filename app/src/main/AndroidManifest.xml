@@ -21,8 +21,9 @@
         <activity
             android:name=".SharedPreferencesActivity"
             android:label="Shared Preferences Demo"
-            android:screenOrientation="portrait"></activity>
-        <activity android:name=".FileStorageSelectionActivity"></activity>
+            android:screenOrientation="portrait" />
+        <activity android:name=".FileStorageSelectionActivity" />
+        <activity android:name=".InternalStorageActivity"></activity>
     </application>
 
 </manifest>
