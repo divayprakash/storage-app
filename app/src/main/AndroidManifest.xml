@@ -36,7 +36,9 @@
             android:name=".ExternalStorageActivity"
             android:label="External Storage Demo"
             android:screenOrientation="portrait" />
-        <activity android:name=".DatabaseActivity"></activity>
+        <activity android:name=".DatabaseActivity"
+            android:label="Database Storage Demo"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>
